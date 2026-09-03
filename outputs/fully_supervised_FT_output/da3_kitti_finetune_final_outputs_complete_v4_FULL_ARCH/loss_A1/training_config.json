@@ -1,0 +1,26 @@
+{
+  "loss_name": "A1",
+  "arch_mode": "full",
+  "aug_mode": "base",
+  "optim_mode": "adamw",
+  "lr": 2e-07,
+  "weight_decay": 0.0001,
+  "epochs": 50,
+  "batch_size": 4,
+  "accum_steps": 2,
+  "effective_batch": 8,
+  "warmup_epochs": 1,
+  "max_grad_norm": 1.0,
+  "mixed_prec": true,
+  "mae_depth_floor": 0.5,
+  "save_every": 1,
+  "patience": 30,
+  "val_frac": 0.1,
+  "split_seed": 42,
+  "target_hw": [
+    378,
+    1246
+  ],
+  "start_epoch": 1,
+  "resumed_from": null
+}
