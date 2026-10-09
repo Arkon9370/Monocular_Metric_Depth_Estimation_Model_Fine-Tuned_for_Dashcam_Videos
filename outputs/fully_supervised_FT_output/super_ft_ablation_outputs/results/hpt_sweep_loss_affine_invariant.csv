@@ -1,0 +1,4 @@
+ablation,tag,best_val_rmse,is_winner,lr
+loss_affine_invariant,lr=0.0001,1.4042361478010814,True,0.0001
+loss_affine_invariant,lr=5e-05,1.5145415167013805,False,5e-05
+loss_affine_invariant,lr=2e-05,1.6061588029066722,False,2e-05

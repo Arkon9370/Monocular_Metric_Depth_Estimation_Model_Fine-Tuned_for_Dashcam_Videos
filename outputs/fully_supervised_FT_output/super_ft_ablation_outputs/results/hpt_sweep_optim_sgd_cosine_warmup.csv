@@ -1,0 +1,4 @@
+ablation,tag,best_val_rmse,is_winner,lr
+optim_sgd_cosine_warmup,lr=0.0001,2.6902058919270835,True,0.0001
+optim_sgd_cosine_warmup,lr=5e-05,2.751699447631836,False,5e-05
+optim_sgd_cosine_warmup,lr=2e-05,2.838801066080729,False,2e-05

@@ -1,0 +1,4 @@
+ablation,tag,best_val_rmse,is_winner,lr
+loss_robust_cauchy,lr=0.0001,5.769436359405518,False,0.0001
+loss_robust_cauchy,lr=5e-05,2.275631368160248,False,5e-05
+loss_robust_cauchy,lr=2e-05,2.116288125514984,True,2e-05

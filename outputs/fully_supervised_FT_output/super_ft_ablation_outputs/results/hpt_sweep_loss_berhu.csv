@@ -1,0 +1,4 @@
+ablation,tag,best_val_rmse,is_winner,lr
+loss_berhu,lr=0.0001,2.468490401903788,False,0.0001
+loss_berhu,lr=5e-05,1.7581200798352559,True,5e-05
+loss_berhu,lr=2e-05,2.0519758065541587,False,2e-05

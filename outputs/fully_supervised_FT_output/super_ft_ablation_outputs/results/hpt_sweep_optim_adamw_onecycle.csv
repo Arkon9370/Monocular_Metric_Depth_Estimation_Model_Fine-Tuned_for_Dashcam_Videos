@@ -1,0 +1,4 @@
+ablation,tag,best_val_rmse,is_winner,lr
+optim_adamw_onecycle,lr=0.0001,1.961185614267985,True,0.0001
+optim_adamw_onecycle,lr=5e-05,2.834683120250702,False,5e-05
+optim_adamw_onecycle,lr=2e-05,2.2027015884717307,False,2e-05

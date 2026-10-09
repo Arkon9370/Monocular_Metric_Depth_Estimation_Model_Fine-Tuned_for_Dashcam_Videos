@@ -1,0 +1,4 @@
+ablation,tag,best_val_rmse,is_winner,lr
+loss_silog,lr=0.0001,1.6906235416730244,False,0.0001
+loss_silog,lr=5e-05,2.1746511459350586,False,5e-05
+loss_silog,lr=2e-05,1.503831813732783,True,2e-05
