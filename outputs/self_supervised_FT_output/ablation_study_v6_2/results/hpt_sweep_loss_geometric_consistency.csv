@@ -1,0 +1,3 @@
+ablation,tag,best_val_rmse,baseline_val_rmse,is_winner,lr
+loss_geometric_consistency,lr=1e-05,31.93826413154602,3.513868737220764,False,1e-05
+loss_geometric_consistency,lr=1e-06,3.5970178574323652,3.513868737220764,True,1e-06

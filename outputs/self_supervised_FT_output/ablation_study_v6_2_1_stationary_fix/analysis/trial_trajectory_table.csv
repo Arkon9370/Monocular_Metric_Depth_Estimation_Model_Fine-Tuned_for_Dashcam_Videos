@@ -1,0 +1,11 @@
+config,hpt_tag,best_epoch,best_val,final_val,trajectory,n_epochs,lr
+stat_combined_stationary,lr=1e-05,0,3.5136826276779174,19.930992984771727,bouncy/overfit,6,1e-05
+stat_combined_stationary,lr=1e-06,0,3.5136826276779174,9.78737668991089,bouncy/overfit,6,1e-06
+stat_full_3d_ego_motion,lr=1e-05,0,3.5136826276779174,20.050506019592284,bouncy/overfit,6,1e-05
+stat_full_3d_ego_motion,lr=1e-06,0,3.5136826276779174,8.622908985614776,bouncy/overfit,6,1e-06
+stat_mask_chamfer,lr=1e-05,0,3.5136826276779174,20.934472846984864,bouncy/overfit,6,1e-05
+stat_mask_chamfer,lr=1e-06,0,3.5136826276779174,11.203866910934448,bouncy/overfit,6,1e-06
+stat_stationary_depth_motion,lr=1e-05,0,3.5136826276779174,18.57344331741333,bouncy/overfit,6,1e-05
+stat_stationary_depth_motion,lr=1e-06,0,3.5136826276779174,8.203134536743164,bouncy/overfit,6,1e-06
+stat_stationary_uniform_motion,lr=1e-05,0,3.5136826276779174,17.86515579223633,bouncy/overfit,6,1e-05
+stat_stationary_uniform_motion,lr=1e-06,0,3.5136826276779174,7.551994001865387,bouncy/overfit,6,1e-06

@@ -1,0 +1,3 @@
+ablation,tag,best_val_rmse,baseline_val_rmse,is_winner,lr
+combo_D_monodepth2_core,lr=1e-05,8.132527375221253,3.513868737220764,False,1e-05
+combo_D_monodepth2_core,lr=1e-06,4.038124662637711,3.513868737220764,True,1e-06

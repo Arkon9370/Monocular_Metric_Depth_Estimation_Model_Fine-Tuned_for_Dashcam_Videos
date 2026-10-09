@@ -1,0 +1,10 @@
+{
+  "scale": 1.0498602312972276,
+  "shift": 0.38849476144217304,
+  "n_anchors": 1980,
+  "n_inliers": 1249,
+  "rmse_m": 1.199265460212899,
+  "method": "ransac_wls_affine",
+  "only_scale": false,
+  "intrin_focal_policy": "as_predicted"
+}

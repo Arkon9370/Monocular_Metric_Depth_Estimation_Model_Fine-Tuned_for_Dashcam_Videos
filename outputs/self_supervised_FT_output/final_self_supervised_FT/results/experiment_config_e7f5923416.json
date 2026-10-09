@@ -1,0 +1,101 @@
+{
+ "ACCUM_STEPS": 8,
+ "AMP_DTYPE": "torch.float16",
+ "AMP_DTYPE_MODE": "fp16",
+ "ARCH_MODE": "decoder_only",
+ "AUG_MODE": "base",
+ "BATCH_SIZE": 4,
+ "BYTETRACK_HIGH_THRESH": 0.5,
+ "BYTETRACK_LOW_THRESH": 0.1,
+ "CANONICAL_SAMPLE_SET": true,
+ "CODE_VERSION": "final-v1 (derived from v6.2.1-stationary-fix)",
+ "DYNAMIC_FILTER_MODE": "both",
+ "DYN_MASK_DILATE_PX": 3,
+ "EARLY_STOP_PATIENCE": 15,
+ "ENABLE_GEOMETRIC_FILTER": false,
+ "ENABLE_TRACKING": false,
+ "EPS": 1e-06,
+ "EXPECTED_TRAINABLE_FRACTION": {
+  "decoder_only": [
+   0.001,
+   0.6
+  ],
+  "full": [
+   0.999,
+   1.0
+  ],
+  "last2_blocks": [
+   0.0001,
+   0.6
+  ]
+ },
+ "FINAL_EPOCHS": 50,
+ "FLOW_RESIDUAL_PX": 2.0,
+ "FOCAL_LENGTH_X": 721.5377,
+ "GEOMETRIC_FILTER_WARMUP_EPOCHS": 2,
+ "LEARNING_RATE": 1e-06,
+ "MAX_DEPTH": 80.0,
+ "MAX_GRAD_NORM": 1.0,
+ "MAX_TRAIN": 0,
+ "MIN_DEPTH": 0.001,
+ "MIN_REPROJ_AUTO_MASK_THRESHOLD": 0.0,
+ "MIXED_PREC": true,
+ "MODEL_ID": "depth-anything/DA3METRIC-LARGE",
+ "OPTIM_MODE": "adamw",
+ "ORTHO_NORM": 300.0,
+ "POSE_LR": 0.0001,
+ "POSE_OUT_SCALE": 0.1,
+ "POSE_WARMUP_CODE_VERSION": "v6.2",
+ "POSE_WARMUP_EPOCHS": 1,
+ "POSE_WARMUP_MAX_BATCHES": 0,
+ "RECIPE_WEIGHTS": {
+  "A1_gt_pose_photo": {
+   "gt_photo": 1.0
+  },
+  "A3_gt_pose_photo_smooth_temporal": {
+   "gt_photo": 1.0,
+   "gt_temporal": 0.1,
+   "smooth": 0.001
+  },
+  "B1_gt_pose_rigid_flow": {
+   "gt_flow": 1.0
+  },
+  "C1_rigid_flow": {
+   "rigid_flow_consistency": 1.0
+  },
+  "C3_photo_l1_flow_smooth": {
+   "flow_smooth": 0.1,
+   "photo_l1": 1.0
+  },
+  "C5_photo_l1_feature_metric": {
+   "feature_metric": 0.1,
+   "photo_l1": 1.0
+  }
+ },
+ "SAM3_MASK_DIR": "/home/arka/Downloads/MMDE/outputs/inst_seg_output",
+ "SAVE_EVERY_N_EPOCHS": 2,
+ "SCHED_MODE": "cosine_warmup",
+ "SMOOTHNESS_DECAY": 1.0,
+ "SOURCE_OFFSETS": [
+  -1,
+  1
+ ],
+ "SSIM_ALPHA": 0.85,
+ "SSL_MAX_DEPTH": 80.0,
+ "SSL_MIN_DEPTH": 0.001,
+ "TARGET_H": 378,
+ "TARGET_W": 1246,
+ "TRACKER_TYPE": "hungarian",
+ "TRACK_IOU_MATCH_THRESH": 0.15,
+ "TRACK_MAX_AGE": 5,
+ "TRACK_MIN_HITS": 1,
+ "TRAIN_ROOT": "/home/arka/Downloads/MMDE/datasets/KITTI/complete_oxts/train",
+ "USE_DYNAMIC_MASK": true,
+ "USE_GRAD_SCALER": true,
+ "USE_MODEL_FOCAL": false,
+ "VAL_SPLIT_FRAC": 0.1,
+ "VAL_SPLIT_SEED": 42,
+ "WARMUP_EPOCHS": 1,
+ "WEIGHT_DECAY": 0.0001,
+ "W_ANCHOR": 0.0
+}

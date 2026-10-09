@@ -1,0 +1,24 @@
+loss,category,test,loss_value,grad_norm,grad_finite,gt_depth_visible,valid_frac,auto_mask_frac,n_objects,dyn_mask_frac,input,status
+photo_l1,ssl,0b-1,0.09927305579185486,7.216852281999309e-06,True,False,0.9748294353485107,,,,,ok
+photo_ssim,ssl,0b-1,0.2779574394226074,1.3883517567592207e-05,True,False,0.9748294353485107,,,,,ok
+photo_ssim_l1,ssl,0b-1,0.20084738731384277,1.1588184861466289e-05,True,False,0.976207435131073,1.0,,,,ok
+min_reproj_photo,ssl,0b-1,0.1187986508011818,2.0766719899256714e-05,True,False,0.976207435131073,0.5146982669830322,,,,ok
+multi_scale_photo,ssl,0b-1,0.11196449398994446,9.67826690612128e-06,True,False,,,,,,ok
+geometric_consistency,ssl,0b-1,0.06177243962883949,6.841353024356067e-05,True,False,0.4658515453338623,,,0.5247081518173218,,ok
+feature_metric,ssl,0b-1,0.19449016451835632,5.055048859503586e-06,True,False,0.9755598306655884,,,,,ok
+rigid_flow_consistency,ssl,0b-1,0.20414622128009796,1.5713014363427646e-05,True,False,0.9755598306655884,,,,,ok
+temporal_warp_consistency,ssl,0b-1,0.16376233100891113,6.8829525844194e-05,True,False,0.4658515453338623,,,0.5247081518173218,,ok
+combined_monodepth2,ssl,0b-1,0.11195224523544312,9.680168659542687e-06,True,False,,,,,,ok
+combined_recommended_ssl,ssl,0b-1,0.12499718368053436,2.1858004402020015e-05,True,False,,,,0.5247081518173218,,ok
+edge_aware_smooth,regulariser,0b-1,0.011740975081920624,0.0002382640086580068,True,False,,,,,,ok
+naive_temporal_delta,ssl,0b-1,2.5903236865997314,0.0006791998748667538,True,False,,,,,,ok
+combined_recommended,hybrid,0b-1,0.16723324358463287,7.129838922992349e-05,True,True,,,,0.5125221014022827,,ok
+lidar_anchor_only,supervised_control,0b-1,0.09016053378582001,0.00014169227506499738,True,True,,,,,,ok
+gt_photo_reproj,oracle_pose,0b-1,0.08580467849969864,0.0002487570163793862,True,False,0.9998683333396912,0.7111706733703613,,,,ok
+gt_rigid_flow_consistency,oracle_pose,0b-1,0.13258853554725647,0.0003276003117207438,True,False,0.8330307602882385,,,,,ok
+gt_temporal_warp_consistency,oracle_pose,0b-1,0.09021426737308502,0.00022890334366820753,True,False,0.46476128697395325,,,0.46626347303390503,,ok
+stationary_depth_motion,stationary_ssl,0b-2 tracking,1.6133935451507568,0.35463467240333557,True,False,,,8.0,,synthetic masks (no real tracks found),ok
+stationary_uniform_motion,stationary_ssl,0b-2 tracking,1.0503277778625488,0.35330450534820557,True,False,,,,,synthetic masks (no real tracks found),ok
+full_3d_ego_motion,stationary_ssl,0b-2 tracking,2.0143208503723145,0.3132639229297638,True,False,,,8.0,,synthetic masks (no real tracks found),ok
+mask_chamfer,stationary_ssl,0b-2 tracking,3.2032978534698486,0.09958191961050034,True,False,,,8.0,,synthetic masks (no real tracks found),ok
+combined_stationary,stationary_ssl,0b-2 tracking,2.4828574657440186,0.338329017162323,True,False,,,8.0,0.57224440574646,synthetic masks (no real tracks found),ok

@@ -1,0 +1,3 @@
+ablation,tag,best_val_rmse,baseline_val_rmse,is_winner,lr
+stat_stationary_depth_motion,lr=1e-05,11.556496191024781,3.5136826276779174,False,1e-05
+stat_stationary_depth_motion,lr=1e-06,4.410982584953308,3.5136826276779174,True,1e-06

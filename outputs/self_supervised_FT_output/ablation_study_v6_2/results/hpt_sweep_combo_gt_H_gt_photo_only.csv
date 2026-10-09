@@ -1,0 +1,3 @@
+ablation,tag,best_val_rmse,baseline_val_rmse,is_winner,lr
+combo_gt_H_gt_photo_only,lr=1e-05,2.6977141857147218,3.513173681497574,True,1e-05
+combo_gt_H_gt_photo_only,lr=1e-06,2.8104738682508468,3.513173681497574,False,1e-06

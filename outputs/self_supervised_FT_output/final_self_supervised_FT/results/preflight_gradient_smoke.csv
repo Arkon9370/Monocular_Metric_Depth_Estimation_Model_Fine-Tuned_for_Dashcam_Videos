@@ -1,0 +1,2 @@
+recipe,group,loss_value,grad_norm,grad_finite,gt_depth_visible,valid_frac,dyn_mask_frac,status
+B1_gt_pose_rigid_flow,B,0.1017468124628067,0.0001857528550317511,True,False,,,ok

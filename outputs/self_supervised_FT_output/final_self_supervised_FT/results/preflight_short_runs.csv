@@ -1,0 +1,2 @@
+exp,loss,category,val_rmse_before,val_rmse_after,d_rmse,train_loss,depth_grad,pose_grad,updates,skipped,skip_frac,bad_loss_batches,param_rel_change,valid_frac,auto_mask_frac,PASS
+B1_gt_pose_rigid_flow,B1_gt_pose_rigid_flow,oxts_pose_ssl,3.0926410853862762,3.330731987953186,0.2380909025669098,0.13733761478215456,1.0304519305626552,,30,0,0.0,0,2.091093020730362e-05,,,True

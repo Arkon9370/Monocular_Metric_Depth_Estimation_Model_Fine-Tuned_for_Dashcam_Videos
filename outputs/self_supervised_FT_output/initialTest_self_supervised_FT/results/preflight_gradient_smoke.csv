@@ -1,0 +1,7 @@
+recipe,group,loss_value,grad_norm,grad_finite,gt_depth_visible,valid_frac,dyn_mask_frac,status
+A1_gt_pose_photo,A,0.08177568018436432,0.00021677765471395105,True,False,,,ok
+A3_gt_pose_photo_smooth_temporal,A,0.08354836702346802,0.00021729881700593978,True,False,,0.14528608322143555,ok
+B1_gt_pose_rigid_flow,B,0.1351643204689026,0.00035764017957262695,True,False,,,ok
+C1_rigid_flow,C,0.23131036758422852,2.7843298084917478e-05,True,False,0.9861498475074768,,ok
+C3_photo_l1_flow_smooth,C,0.09980171918869019,8.766999599174596e-06,True,False,0.9859194755554199,,ok
+C5_photo_l1_feature_metric,C,0.11949874460697174,8.121099199343007e-06,True,False,0.9859194755554199,,ok
